@@ -88,7 +88,8 @@ artifacts/
 *_p.c
 *_i.h
 *.ilk
-*.meta
+# *.meta
+# We have to handle .meta files on external version control systems - https://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html
 *.obj
 *.pch
 *.pgc
